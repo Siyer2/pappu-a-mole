@@ -4,7 +4,7 @@ A simple whack‑a‑mole style game that cycles through images in the `images/`
 
 ## Playing
 
-Open `index.html` in your browser or host these files on a static server (such as GitHub Pages). Press **Start Game** and begin tapping the faces. Each round lasts 30 seconds. A countdown shows the time remaining and the faces appear for shorter and shorter times, speeding up as the round progresses. When time runs out a "Game over" message appears and you can start again.
+Open `index.html` in your browser or host these files on a static server (such as GitHub Pages). Press **Start Game** and begin tapping the faces. Each round lasts 30 seconds. A countdown shows the time remaining and the faces appear for shorter and shorter times, speeding up as the round progresses. As the timer ticks down, more than one face may pop up at once. When time runs out a "Game over" message appears and you can start again.
 
 The layout is responsive and works well on mobile devices.
 The graphics are bright and cartoonish so the faces look like they are popping

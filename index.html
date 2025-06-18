@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pappu-A-Mole</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Pappu-A-Mole</h1>
+    <div id="game">
+        <div class="grid">
+            <!-- 9 holes -->
+            <div class="hole" data-index="0"><div class="mole"></div></div>
+            <div class="hole" data-index="1"><div class="mole"></div></div>
+            <div class="hole" data-index="2"><div class="mole"></div></div>
+            <div class="hole" data-index="3"><div class="mole"></div></div>
+            <div class="hole" data-index="4"><div class="mole"></div></div>
+            <div class="hole" data-index="5"><div class="mole"></div></div>
+            <div class="hole" data-index="6"><div class="mole"></div></div>
+            <div class="hole" data-index="7"><div class="mole"></div></div>
+            <div class="hole" data-index="8"><div class="mole"></div></div>
+        </div>
+        <div class="info">
+            <span>Score: <span id="score">0</span></span>
+            <span>Time: <span id="time">30</span>s</span>
+            <button id="startBtn">Start Game</button>
+        </div>
+        <div id="message" class="message"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
